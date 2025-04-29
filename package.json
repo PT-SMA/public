@@ -1,0 +1,14 @@
+{
+  "name": "fileserver",
+  "version": "1.0.0",
+  "main": "index.mjs",
+  "author": "YouStead",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "serve-handler": "^6.1.6"
+  },
+  "scripts": {
+    "postinstall": "node ./postinstall.mjs"
+  }
+}
