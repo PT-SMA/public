@@ -9,6 +9,7 @@
     "serve-handler": "^6.1.6"
   },
   "scripts": {
-    "postinstall": "node ./postinstall.mjs"
+    "postinstall": "node ./postinstall.mjs",
+    "start": "node ./index.mjs"
   }
 }
