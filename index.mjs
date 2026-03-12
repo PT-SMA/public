@@ -23,7 +23,7 @@ if (cluster.isPrimary) {
       public: path.resolve("public"),
       headers: [
         {
-          source: "**/*.@(jpg|jpeg|png)",
+          source: "**/*.@(jpg|jpeg|png|geojson|json)",
           headers: [
             {
               key: "Cache-Control",
